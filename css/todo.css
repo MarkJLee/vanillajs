@@ -1,0 +1,39 @@
+#todo-form > input {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 35px;
+    padding: 0;
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    text-align: center;
+}
+
+#todo-list {
+    position: absolute;
+    left: 89%;
+    top: 40%;
+    transform: translateX(-50%);
+    width: 130px;
+    font-weight: 400;
+    font-size: 12px;
+    list-style: none;
+    text-align: left;
+}
+
+#todo-list > li {
+    margin-bottom: 5px;
+}
+
+.todocheck {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+}
